@@ -1,0 +1,183 @@
+#lawyer{
+  z-index: -1;
+}
+
+#left-hand{
+  height: 25em;
+  position: relative;;
+    left: -45em;
+    top: -2em;
+  z-index: 2;
+}
+
+#right-hand{
+  height: 25em;
+  position: relative;;
+    right: 30em;
+    top: -2em;
+  z-index: 2;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.radio-img{
+  width: 2em;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+main {
+   flex: 1 0 auto;
+ }
+
+nav {
+ height: 15em;
+ background-image: url("https://s-media-cache-ak0.pinimg.com/736x/44/51/9b/44519b9178887f8c7cdef47cc70d9ef5.jpg");
+ background-size: contain;
+}
+
+
+#logo {
+ width: 6.5em;
+ margin-top: 0.3em;
+ border: solid;
+ border-color: rgb(103,55,27);
+ border-width: 3px;
+}
+
+#ghub {
+ width: 1.5em;
+}
+
+footer.page-footer {
+ background-color: rgb(103,55,27);
+}
+
+footer.page-footer .footer-copyright {
+ background-color: #6D6E71 ;
+}
+
+/*body{
+background: #F9D65A;
+
+min-height: 100%;
+
+
+text-align:center;
+}*/
+
+/*.hands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  margin-top: 40vh;
+  max-width: 50vw;
+}*/
+
+/*img {
+  max-height: 20vh;
+  max-width: auto;
+  padding: 20px;
+}*/
+  /*position: absolute;
+  top: 50%;
+  left: 50%;*/
+
+  /*margin: -70px 0 0 -70px;*/
+#left-hand {
+-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-animation: wink 0.1s alternate infinite; /* Safari 4+ */
+  -moz-animation:    wink 0.1s alternate infinite; /* Fx 5+ */
+  -o-animation:      wink 0.1s alternate infinite; /* Opera 12+ */
+  animation:         wink 0.1s alternate infinite; /* IE 10+, Fx 29+ */
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+-webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+animation-timing-function: ease;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wink {
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+
+}
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+
+}
+
+/* Standard syntax */
+@keyframes wink {
+
+
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+transform: rotate(-40deg);
+}
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+
+}
+
+#right-hand {
+-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-animation: wink 0.1s alternate infinite; /* Safari 4+ */
+  -moz-animation:    wink 0.1s alternate infinite; /* Fx 5+ */
+  -o-animation:      wink 0.1s alternate infinite; /* Opera 12+ */
+  animation:         wink 0.1s alternate infinite; /* IE 10+, Fx 29+ */
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+-webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+animation-timing-function: ease;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wink {
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+
+}
+
+#consult-button{
+  margin-top: 10em!important;
+}
